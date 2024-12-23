@@ -1,0 +1,174 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/*
+    position: obsolute;
+    posição absoluta se trata da distância do conteúdo da caixa em relação em relação à sua margem
+    ex: 
+        top: 30px;
+        - distância de 30 pixels em relação a margem de cima
+        bottom: 20px;
+        - distância de 20 pixels em relação a margem de baixo
+    também é possível manipular a altura e largura do conteúdo caso o padding seja em porcentagem. 
+*/ 
+*{
+    margin-top: 0;
+}
+:root{
+    --corfundo: #E7E5C2;
+    --cor1: #3BD17F;
+    --cor2: #2E9C62;
+    --cor3: #1A5C38;
+}
+p{
+    text-indent: 25px;
+}
+body{
+    margin: 0px;
+    background-color: var(--corfundo);
+}
+header{
+    background-image: linear-gradient(180deg,#3BD17F,#1A5C38);
+    margin: 0%;
+    font-family: 'Bebas Neue', cursive;
+    height: auto;
+}
+header>h1{
+    padding-top: 10px;
+    padding: auto;
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+}
+header>p{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.2em;
+    color: white;
+    padding: 0px;
+    margin: 30px;
+}
+header>footer{
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: left;
+}
+header>footer>nav>a{
+    color: #3BD17F;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin: auto ;
+    width: 100%;
+    height: 100%;
+    font-size: 1.3em;
+}
+header>footer>nav>a:hover{
+    background-color: #2E9C62;
+    color: #1A5C38;
+    transition-duration: 0.4s;
+}
+#corpo{
+    background-color: white;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;
+    box-shadow: 5px 0px 15px #0000008c;
+}
+.titulo{
+    font-family: 'Bruno Ace', cursive;
+    color: #1A5C38;
+    text-align: justify;
+    font-weight: bold;
+}
+h2.titulo{
+    font-size: 2em;
+}
+h3.titulo{
+    font-size: 1.8em;
+    background-image: linear-gradient(90deg, #3BD17F, transparent);
+}
+#imagem{
+    margin: auto auto 10px auto;
+    text-align: center;
+    width: 100%;
+}
+iframe{
+    position:absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+}
+#video{
+    background-color: #1A5C38;
+    position: relative;
+    text-align: center;
+    padding: 28% 50%;
+    margin: auto 0px;
+}
+main{
+    padding: 25px;
+}
+#rodape{
+    margin: 20px;
+    background-color: #3BD17F;
+    border-radius: 10px;
+}
+footer>p{
+    padding: 25px;
+}
+footer>div>p{
+    padding: 10px;
+}
+footer>div>h3{
+    padding: 10px;
+    color: white;
+    text-align: justify;
+    height: 25px;
+    margin: 0px;
+    background-color: #1A5C38;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px 10px 0px 0px;
+}
+footer>div>ul{
+    font-size: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    text-align: justify;
+    padding: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.9em;
+}
+footer>div>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+footer>div>ul>li>a:hover{
+    background-color: #1A5C38;
+    color: white;
+    border-radius:5px;
+}
+#corpo{
+    border-radius: 0px 0px 10px 10px;
+}
+h4{
+    background-color: #1A5C38;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    font-weight: lighter;
+    display: inline;
+}
+ul>li>img{
+    margin-right: 6px;
+}
