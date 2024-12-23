@@ -81,7 +81,7 @@ header>footer>nav>a:hover{
 .titulo{
     font-family: 'Bruno Ace', cursive;
     color: #1A5C38;
-    text-align: justify;
+    text-align: left;
     font-weight: bold;
 }
 h2.titulo{
