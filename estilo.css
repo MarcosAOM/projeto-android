@@ -20,6 +20,7 @@
     --cor1: #3BD17F;
     --cor2: #2E9C62;
     --cor3: #1A5C38;
+    --fontetexto: 'Bruno Ace', cursive;
 }
 p{
     text-indent: 25px;
@@ -75,13 +76,14 @@ header>footer>nav>a:hover{
     background-color: white;
     max-width: 1200px;
     min-width: 320px;
-    margin: auto;
+    margin: auto auto 20px auto;
     box-shadow: 5px 0px 15px #0000008c;
+    padding-bottom: 0.3%;
 }
 .titulo{
     font-family: 'Bruno Ace', cursive;
     color: #1A5C38;
-    text-align: left;
+    text-align: justify;
     font-weight: bold;
 }
 h2.titulo{
@@ -118,39 +120,44 @@ main{
     background-color: #3BD17F;
     border-radius: 10px;
 }
-footer>p{
-    padding: 25px;
-}
-footer>div>p{
-    padding: 10px;
-}
-footer>div>h3{
-    padding: 10px;
+#rodape>h3{
+    background-color: var(--cor3);
+    border-radius: 10px 10px 0px 0px; 
+    padding: 2px;
+    padding-left: 10px;
     color: white;
-    text-align: justify;
-    height: 25px;
-    margin: 0px;
-    background-color: #1A5C38;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-radius: 10px 10px 0px 0px;
 }
-footer>div>ul{
+#rodape>ul{
     font-size: 90%;
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    text-align: justify;
-    padding: auto;
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#rodape>p{
+    margin-top: -20px;
+    margin-bottom: -12px;
+    text-align: justify;
+    text-indent: 0px;
+    padding: 8px;
+}
+#rodape>p>a:hover{
+    text-decoration: underline;
+}
+#rodape>p>a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #1A5C38;
 }
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.9em;
 }
-footer>div>ul>li>a{
+#rodape>ul>li>a{
     text-decoration: none;
     color: black;
 }
-footer>div>ul>li>a:hover{
+#rodape>ul>li>a:hover{
     background-color: #1A5C38;
     color: white;
     border-radius:5px;
